@@ -113,6 +113,32 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain the difference between Relational Databases and SQL.
+```
+Relational Databases are databases which store related data in tables. A table in a relational database is nothing but a collection of rows and columns to represent the data. Rows represent a distinct record and columns represent fields which are common to all the records in the table. Tables in relational databases can be joined with each other by means of a foreign key which represents the primary key (unique record identifier) in another table.
+
+SQL is the programming language which is used to retrieve data and records from a relational database. SQL provides a collection of commands by means of which records in a table can be modified, deleted and retrieved. 
+
+```
 2. Why do tables need a Primary Key?
+
+```
+Primary keys are needed because they uniquely identify a single record in a table and they are also used to connect to another tables in the database by their usage as foreign keys in another tables. 
+The whole foundation of relational databases exist on primary keys and the relationship databases would not serve their purpose without the existence of primary keys. 
+
+```
+
 3. What is the name given to a table column that references the Primary Key on another table?
+
+```
+Foreign key is the table column which references the primary key on another table. In other words, Foreign keys are used for creating links before tables in a database.
+
+```
 4. What do we need in order to have a _many to many_ relationship between two tables?
+
+```
+Intermediary tables are used when multiple tables are capable of having many to many relationships. 
+Intermediary tables are essentially tables which reference and contain the primary key on related tables. 
+
+```
+
+# CodeGrade Setup
